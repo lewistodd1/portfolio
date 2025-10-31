@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #616060;
+    --primary-color: #ffe6cb;
     --secondary-color: #0ea5e9;
-    --accent-color: #b6d4e1;
+    --accent-color: #68546c;
     --text-color: #1a1a1a;
     --background-color: #f8ebdb;
 }
@@ -9,22 +9,25 @@
 
 body {
     margin: 0;
-    font-family: system-ui, Arial, sans-serif;
+    font-family: Calibri, system-ui, Arial, sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 header, footer {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #1a1a1a;
     padding: 1rem;
     text-align: center;
+    line-height: 1.2;
 }
 
 nav a {
-    color: var(--accent-color);
-    margin: 0 15px;
+    display: inline-block;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin: 0 2rem;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease, text-shadow 0.2s ease;
@@ -32,8 +35,8 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    color: var(--color-primary);
-    text-shadow: 0 0 5px rgba(0,0,0,0.1);
+    color: var(--accent-color);
+    /*text-shadow: 0 0 5px rgba(0,0,0,0.1);*/
 }
 
 main {
@@ -51,5 +54,6 @@ h1, h2, h3 {
 }
 
 .name {
-    color: rgb(251, 254, 254);
+    color: var(--text-color);
+    font-size: 50px;
 }
