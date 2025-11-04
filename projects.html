@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Lewis Todd</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
     
 <header>
     <h1 class="name">Lewis Todd</h1>
-    <h2>Data Analyst | Certified Power BI Analyst</h2>
+    <h2>Web developer | Modern, responsive web apps to suit your needs</h2>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -20,22 +22,31 @@
         <a href="contact.html">Contact</a>
     </nav>
 </header>
-    <!--Add typing game challenge and work in progress on other browser games and possibly patient follow up app-->
     <main>
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project One</h3>
-            <h4>To-Do List web app</h4>
-            <p>A modern web application built with React and Node.js.</p><a href="https://todo-app-v2-eta.vercel.app/">Check it out!</a>
-        </div>
-        <div class="project">
-            <h3>Project Two</h3>
-            <!--<p>A business solution developed with .NET and SQL Server.</p>-->
-        </div>
-        <div class="project">
-            <h3>Project Three</h3>
-            <!--<p>A creative PHP/JavaScript app designed for data visualization.</p>-->
-        </div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class = "projects">
+                <div class = "project-card">    
+                    <div class="content">
+                        <h3>To-Do List web app</h3>
+                        <p>A modern web application built with React and Node.js.</p><a href="https://todo-app-v2-eta.vercel.app/">Check it out!</a>
+                    </div>
+                </div>
+                <div class = "project-card">
+                    <div class="content">
+                        <h3>Expense Tracker</h3>
+                        <p>A cool <a href = "https://budget-tracker-pi-one.vercel.app/">expense tracker</a> built using React and Vite. Added Recharts for some sleek data visualisation.</p>
+                    </div>
+                </div>
+                <div class = "project-card">
+                    <div class="content">
+                        <h3>Project Three (In Progress): Micro-Insights Dashboard for teams</h3>
+                        <p>A web app that hooks into tools like Trello, Slack, Jira and gives summaries on key performance metrics such as response times
+                        and task completion rates. Work in progress and updates are coming soon!</p>
+                    </div>
+                </div>
+            </div>    
+        </section>
     </main>
     
 <footer>
